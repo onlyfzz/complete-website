@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<!-- 头部开始 -->
+	<header class="head">
+		<!-- head-top开始 -->
+		<div class="head-top">
+			<div class="comWidth clearfix">
+				<div class="top-left">
+					<a class="collection" href="#">收藏小店</a>
+				</div>
+				<div class="top-right">
+					欢迎来到小店！<a id="loginCount" href="login.html">[登陆]</a><a id="registText" href="regist.html">[免费注册]</a>
+				</div>
+			</div>
+		<!-- head-top结束 -->
+		</div>
+		<!-- logo开始 -->
+		<div class="head-mid clearfix">
+			<div class="comWidth">
+				<div class="logo">
+					<a href="javascript:;"><img src="imgs/logo.jpg" alt="慕课网"></a>
+					<h1><a href="#">Fzz的小店</a></h1> 
+				</div>
+				<div class="search-box">
+					<form>
+						<input type="text" class="search-text">
+						<button class="search-bt">搜 索</button>
+					</form>
+				</div>
+				<div class="shop">
+					<a href="login.html"><span class="shopText">购物车</span></a>
+					<span class="shopNum">0</span>
+				</div>
+			</div>
+		<!-- logo结束 -->
+		</div>
+		<!-- head导航开始 -->
+		<nav class="head-nav">
+			<div class="comWidth">
+				<div class="allClass" id="allClass">
+					<h2>全部商品分类<i></i></h2>
+					<!-- 全部商品列表开始 -->
+					<div class="shopClass comWidth clearfix">
+						<!-- 左侧菜单开始 -->
+						<div class="shopClass-item" id="shopClass-item">
+							<dl>
+								<dt>
+									<a href="goods_filter.html">手机</a>
+									<a href="#">数码</a>
+									<a href="#" class="highlight">合约机</a>
+								</dt>
+								<dd>
+									<a href="#">荣耀3X</a>
+									<a href="#">单反</a>
+									<a href="#">智能设备</a>
+								</dd>
+							</dl>
+
+							<dl>
+								<dt>
+									<a href="#">电脑</a>
+									<a href="#">硬件外设</a>
+									<a href="#" class="highlight">装机宝</a>
+								</dt>
+								<dd>
+									<a href="#">笔记本</a>
+									<a href="#">台式机</a>
+									<a href="#">超级本</a>
+									<a href="#">平板</a>
+								</dd>
+							</dl>
+
+							<dl>
+								<dt>
+									<a href="#">大家电</a>
+								</dt>
+								<dd>
+									<a href="#">电视</a>
+									<a href="#">空调</a>
+									<a href="#">冰箱</a>
+									<a href="#">洗衣机</a>
+								</dd>
+							</dl>
+
+							<dl>
+								<dt>
+									<a href="#">厨房电器</a>
+									<a href="#">生活电器</a>
+								</dt>
+								<dd>
+									<a href="#">空气净化器</a>
+									<a href="#">微波炉</a>
+									<a href="#">取暖设备</a>
+								</dd>
+							</dl>
+
+							<dl>
+								<dt>
+									<a href="#">食品/</a>
+									<a href="#">饮料/</a>
+									<a href="#">生鲜</a>
+									<a href="#" class="highlight">粮油</a>
+								</dt>
+								<dd>
+									<a href="#">进口</a>
+									<a href="#">方便面</a>
+									<a href="#">零食</a>
+									<a href="#">保健</a>
+								</dd>
+							</dl>
+						<!-- 左侧菜单结束 -->
+						</div>
+						<!-- 右侧子菜单开始 -->
+						<div class="item-sub" id="item-sub">
+							<div class="item-sublist">
+								<dl>
+									<dt><a href="#">手机通讯</a></dt>
+									<dd>
+										<a href="#">手机</a><a href="#">对讲机</a><a href="#">以旧换新</a><a href="#">手机维修</a>
+									</dd>
+								</dl>
+								 <dl>
+					                <dt><a href="#">运营商</a></dt>
+					                <dd>
+					                    <a href="#">充话费/流量</a><a href="#">170选号</a><a href="#">合约机</a><a href="#">办套餐</a>
+					                    <a href="#">选号码</a><a href="#">固话宽带</a><a href="#">中国移动</a><a href="#">中国联通</a><a href="#">中国电信</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">手机配件</a></dt>
+					                <dd>
+					                    <a href="#">手机壳</a><a href="#">贴膜</a><a href="#">手机存储卡</a><a href="#">数据线</a><a href="#">充电器</a><a href="#">手机耳机</a><a href="#">创意配件</a><a href="#">手机饰品</a><a href="#">手机电池</a><a href="#">苹果周边</a><a href="#">移动电源</a><a href="#">蓝牙耳机</a><a href="#">手机支架</a><a href="#">车载配件</a><a href="#">拍照配件</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">摄影摄像</a></dt>
+					                <dd>
+					                    <a href="#">单电/微单相机</a><a href="#">单反相机</a><a href="#">拍立得</a><a href="#">运动相机</a><a href="#">摄像机</a><a href="#">镜头</a><a href="#">户外器材</a><a href="#">影棚器材</a><a href="#">冲印服务</a><a href="#">数码相框</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">数码配件</a></dt>
+					                <dd>
+					                   <a href="#">存储卡</a><a href="#">三脚架/云台</a><a href="#">相机包</a><a href="#">滤镜</a><a href="#">闪光灯/手柄</a><a href="#">相机清洁/贴膜</a><a href="#">机身附件</a><a href="#">镜头附件</a><a href="#">读卡器</a><a href="#">支架</a><a href="#">电池/充电器</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">影音娱乐</a></dt>
+					                <dd>
+					                    <a href="#">耳机/耳麦</a><a href="#">音箱/音响</a><a href="#">便携/无线音箱</a><a href="#">收音机</a><a href="#">麦克风</a><a href="#">MP3/MP4</a><a href="#">专业音频</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">智能设备</a></dt>
+					                <dd>
+					                    <a href="#">智能手环</a><a href="#">智能手表</a><a href="#">智能眼镜</a><a href="#">智能机器人</a><a href="#">运动跟踪器</a><a href="#">健康监测</a><a href="#">智能配饰</a><a href="#">智能家居</a><a href="#">体感车</a><a href="#">无人机</a><a href="#">其他配件</a>
+					                </dd>
+					            </dl>
+					             <dl>
+					                <dt><a href="#">电子教育</a></dt>
+					                <dd>
+					                    <a href="#">学生平板</a><a href="#">点读机/笔</a><a href="#">早教益智</a><a href="#">录音笔</a><a href="#">电纸书</a><a href="#">电子词典</a><a href="#">复读机</a>
+					                </dd>
+					            </dl>
+					            <div class="sublist-link">
+					            	<a href="#">电脑整机会场<i></i></a>
+					            	<a href="#">硬件/外设会场<i></i></a>
+					            </div>
+							</div>
+							<div class="item-sublist">
+								<dl>
+									<dt><a href="#">电脑整机</a></dt>
+									<dd>
+										<a href="#">笔记本</a><a href="#">超极本</a><a href="#">上网本</a><a href="#">平板电脑</a><a href="#">台式机</a>
+									</dd>
+								</dl>
+								 <dl>
+					                <dt><a href="#">装机配件</a></dt>
+					                <dd>
+					                    <a href="#">CPU</a><a href="#">硬盘</a><a href="#">SSD固态硬盘</a><a href="#">内存</a>
+					                    <a href="#">显示器</a><a href="#">智能显示器</a><a href="#">主板</a><a href="#">显卡</a><a href="#">机箱</a><a href="#">电源</a><a href="#">散热器</a><a href="#">刻录器/光驱</a><a href="#">声卡</a><a href="#">拓展卡</a><a href="#">服务器配件</a><a href="#">DIY小附件</a><a href="#">装机/配件安装</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">整机附件</a></dt>
+					                <dd>
+					                    <a href="#">电脑包</a><a href="#">电脑桌</a><a href="#">电池</a><a href="#">电源适配器</a><a href="#">贴膜</a><a href="#">清洁用品</a><a href="#">笔记本散热器</a><a href="#">USB拓展</a><a href="#">平板配件</a><a href="#">特色附件</a><a href="#">插座网线/电话线</a><a href="#">影音线材</a><a href="#">电脑线材</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">电脑外设</a></dt>
+					                <dd>
+					                    <a href="#">鼠标</a><a href="#">键盘</a><a href="#">游戏外设</a><a href="#">移动硬盘</a><a href="#">摄像头</a><a href="#">高清播放器</a><a href="#">外置盒</a><a href="#">移动硬盘包</a><a href="#">手写板/绘图板</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">网络设备</a></dt>
+					                <dd>
+					                    <a href="#">路由器</a><a href="#">网卡</a><a href="#">3G无线上网</a><a href="#">交换机</a>
+					                    <a href="#">网络存储</a><a href="#">布线工具</a><a href="#">网络配件</a><a href="#">正版软件</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">音频设备</a></dt>
+					                <dd>
+					                    <a href="#">音箱</a><a href="#">耳机/耳麦</a><a href="#">麦克风</a><a href="#">声卡</a><a href="#">音频附件</a><a href="#">录音笔</a>
+					                </dd>
+					            </dl>
+					            <div class="sublist-link">
+					            	<a href="#">电脑整机会场<i></i></a>
+					            	<a href="#">硬件/外设会场<i></i></a>
+					            </div>
+							</div>
+							<div class="item-sublist">
+								<dl>
+				                    <dt><a href="#">电视</a></dt>
+				                    <dd>
+				                        <a href="#">合资品牌</a> <a href="#">国产品牌</a> <a href="#">互联网品牌</a> 
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">空调</a></dt>
+				                    <dd>
+				                        <a href="#">壁挂式空调</a> <a href="#">柜式空调</a> <a href="#">中央空调</a> <a href="#">空调配件</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">洗衣机</a></dt>
+				                    <dd>
+				                        <a href="#">滚筒洗衣机</a> <a href="#">洗烘一体机</a> <a href="#">波轮洗衣机</a> <a href="#">迷你洗衣机</a>
+				                        <a href="#">洗衣机配件</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">冰箱</a></dt>
+				                    <dd>
+				                        <a href="#">多门</a> <a href="#">对开门</a> <a href="#">三门</a> <a href="#">双门</a> <a href="#">
+				                            冷柜/冰吧</a> <a href="#">酒柜</a> <a href="#">冰箱配件</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">厨卫大电</a></dt>
+				                    <dd>
+				                        <a href="#">油烟机</a> <a href="#">燃气灶</a> <a href="#">烟灶套装</a> <a href="#">消毒柜</a> <a href="#">
+				                            洗碗机</a> <a href="#">电热水器</a> <a href="#">燃气热水器</a> <a href="#">嵌入式厨电</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">厨房小店</a></dt>
+				                    <dd>
+				                        <a href="#">电饭煲</a> <a href="#">微波炉</a> <a href="#">电烤箱</a> <a href="#">电磁炉</a><a href="#">电压力锅</a> <a href="#">豆浆机</a> <a href="#">咖啡机</a><a href="#">面包机</a> <a href="#">榨汁机</a> <a href="#">料理机</a> <a href="#">电饼铛</a><a href="#">养生壶/煎药壶</a> <a href="#">酸奶机</a> <a href="#">煮蛋器</a><a href="#">电水壶/热水瓶</a> <a href="#">电炖锅</a> <a href="#">多用途锅</a> <a href="#">电烧烤炉</a><a href="#">电热饭盒</a> <a href="#">其它厨房电器</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">生活电器</a></dt>
+				                    <dd>
+				                        <a href="#">取暖电器</a> <a href="#">吸尘器</a> <a href="#">净化器</a> <a href="#">扫地机器人</a><a href="#">加湿器</a><a href="#">挂烫机/熨斗</a><a href="#">电风扇</a><a href="#">冷风扇</a> <a href="#">插座</a> <a href="#">电话机</a><a href="#">饮水机</a><a href="#">净水器</a> <a href="#">除湿机</a><a href="#">干衣机</a><a href="#">清洁机</a> <a href="#">收录/音机</a><a href="#">其它生活电器</a> <a href="#">生活电器配件</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">个护健康</a></dt>
+				                    <dd>
+				                        <a href="#">剃须刀</a> <a href="#">口腔护理</a> <a href="#">电吹风</a> <a href="#">美容器</a><a href="#">卷/直发器</a> <a href="#">理发器</a> <a href="#">剃/脱毛器</a> <a href="#">足浴盆</a><a href="#">健康秤/厨房秤</a> <a href="#">按摩器</a> <a href="#">按摩椅</a> <a href="#">脂肪检测仪</a><a href="#">其它健康电器</a>
+				                    </dd>
+				                </dl>
+				            </div>
+							<div class="item-sublist">
+				                <dl>
+				                    <dt><a href="#">厨具</a></dt>
+				                    <dd>
+				                        <a href="#">烹饪锅具</a> <a href="#">刀剪菜板</a> <a href="#">厨房配件</a> <a href="#">水具酒具</a>
+				                        <a href="#">餐具</a> <a href="#">茶具/咖啡具</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">家装建材</a></dt>
+				                    <dd>
+				                        <a href="#">灯饰照明</a> <a href="#">厨房卫浴</a> <a href="#">五金工具</a> <a href="#">电工电料</a>
+				                        <a href="#">墙地面材料</a> <a href="#">装饰材料</a> <a href="#">装修服务</a> <a href="#">吸顶灯</a>
+				                        <a href="#">淋浴花洒</a> <a href="#">开关插座</a> <a href="#">油漆涂料</a> <a href="#">龙头</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">家纺</a></dt>
+				                    <dd>
+				                        <a href="#">床品套件</a> <a href="#">被子</a> <a href="#">蚊帐</a> <a href="#">凉席</a> <a href="#">床单被罩</a> <a href="#">枕芯</a> <a href="#">毛巾浴巾</a> <a href="#">布艺软饰</a>
+				                        <a href="#">毯子</a> <a href="#">抱枕靠垫</a> <a href="#">床垫/床褥</a> <a href="#">窗帘/窗纱</a>
+				                        <a href="#">电热毯</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">家具</a></dt>
+				                    <dd>
+				                        <a href="#">卧室家具</a> <a href="#">客厅家具</a> <a href="#">餐厅家具</a> <a href="#">书房家具</a>
+				                        <a href="#">储物家具</a> <a href="#">阳台/户外</a> <a href="#">商业办公</a> <a href="#">床</a>
+				                        <a href="#">床垫</a> <a href="#">沙发</a> <a href="#">电脑椅</a> <a href="#">衣柜</a> <a href="#">
+				                            茶几</a> <a href="#">电视柜</a> <a href="#">餐桌</a> <a href="#">电脑桌</a> <a href="#">鞋架/衣帽架</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">灯具</a></dt>
+				                    <dd>
+				                        <a href="#">台灯</a> <a href="#">吸顶灯</a> <a href="#">筒灯射灯</a> <a href="#">LED灯</a>
+				                        <a href="#">节能灯</a> <a href="#">落地灯</a> <a href="#">五金电器</a> <a href="#">应急灯/手电</a>
+				                        <a href="#">装饰灯</a> <a href="#">吊灯</a> <a href="#">氛围照明</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">生活日用</a></dt>
+				                    <dd>
+				                        <a href="#">收纳用品</a> <a href="#">雨伞雨具</a> <a href="#">浴室用品</a> <a href="#">缝纫/针织用品</a>
+				                        <a href="#">洗晒/熨烫</a> <a href="#">净化除味</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">家装软饰</a></dt>
+				                    <dd>
+				                        <a href="#">桌布/罩件</a> <a href="#">地毯地垫</a> <a href="#">沙发垫套/椅垫</a> <a href="#">帘艺隔断</a>
+				                        <a href="#">相框/照片墙</a> <a href="#">装饰字画</a> <a href="#">墙贴/装饰贴</a> <a href="#">节庆饰品</a>
+				                        <a href="#">手工/十字绣</a> <a href="#">钟饰</a> <a href="#">装饰摆件</a> <a href="#">花瓶花艺</a>
+				                        <a href="#">创意家居</a> <a href="#">保暖防护</a> <a href="#">香薰蜡烛</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">清洁用品</a></dt>
+				                    <dd>
+				                        <a href="#">纸品湿巾</a> <a href="#">衣物清洁</a> <a href="#">清洁工具</a> <a href="#">家庭清洁</a>
+				                        <a href="#">一次性用品</a> <a href="#">驱虫用品</a> <a href="#">皮具护理</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">宠物生活</a></dt>
+				                    <dd>
+				                        <a href="#">宠物主粮</a> <a href="#">宠物零食</a> <a href="#">洗护美容</a> <a href="#">家居日用</a>
+				                        <a href="#">医疗保健</a> <a href="#">出行装备</a> <a href="#">宠物玩具</a> <a href="#">水族用品</a>
+				                        <a href="#">猫砂/尿布</a> <a href="#">宠物牵引</a> <a href="#">宠物驱虫</a>
+				                    </dd>
+				                </dl>
+				            </div>
+							<div class="item-sublist">
+								<dl>
+				                    <dt><a href="#">中外名酒</a></dt>
+				                    <dd>
+				                        <a href="#">白酒</a> <a href="#">葡萄酒</a> <a href="#">洋酒</a> <a href="#">啤酒</a> <a href="#">
+				                            黄酒/养生酒</a> <a href="#">收藏酒/陈年老酒</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">进口食品</a></dt>
+				                    <dd>
+				                        <a href="#">牛奶</a> <a href="#">饼干蛋糕</a> <a href="#">糖果/巧克力</a> <a href="#">休闲零食</a>
+				                        <a href="#">冲调饮品</a> <a href="#">粮油调味</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">休闲食品</a></dt>
+				                    <dd>
+				                        <a href="#">休闲零食</a> <a href="#">坚果炒货</a> <a href="#">肉干肉脯</a> <a href="#">蜜饯果干</a>
+				                        <a href="#">糖果/巧克力</a> <a href="#">饼干蛋糕</a> <a href="#">无糖食品</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">地方特产</a></dt>
+				                    <dd>
+				                        <a href="#">新疆</a> <a href="#">四川</a> <a href="#">云南</a> <a href="#">湖南</a> <a href="#">
+				                            内蒙</a> <a href="#">北京</a> <a href="#">山西</a> <a href="#">福建</a> <a href="#">东北</a>
+				                        <a href="#">其他</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">茗茶</a></dt>
+				                    <dd>
+				                        <a href="#">铁观音</a> <a href="#">普洱</a> <a href="#">龙井</a> <a href="#">绿茶</a> <a href="#">
+				                            红茶</a> <a href="#">乌龙茶</a> <a href="#">花草茶</a> <a href="#">花果茶</a> <a href="#">黑茶</a>
+				                        <a href="#">白茶</a> <a href="#">养生茶</a> <a href="#">其他茶</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">饮料冲调</a></dt>
+				                    <dd>
+				                        <a href="#">牛奶乳品</a> <a href="#">饮料</a> <a href="#">饮用水</a> <a href="#">咖啡/奶茶</a>
+				                        <a href="#">蜂蜜/柚子茶</a> <a href="#">冲饮谷物</a> <a href="#">成人奶粉</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">粮油调味</a></dt>
+				                    <dd>
+				                        <a href="#">米面杂粮</a> <a href="#">食用油</a> <a href="#">调味品</a> <a href="#">南北干货</a>
+				                        <a href="#">方便食品</a> <a href="#">有机食品</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">生鲜食品</a></dt>
+				                    <dd>
+				                        <a href="#">水果蔬菜</a> <a href="#">海鲜水产</a> <a href="#">海参</a> <a href="#">牛排</a>
+				                        <a href="#">肉禽蛋奶</a> <a href="#">熟食腊味</a> <a href="#">环球美食</a> <a href="#">产地直供</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">食品礼券</a></dt>
+				                    <dd>
+				                        <a href="#">大闸蟹</a> <a href="#">粽子</a> <a href="#">月饼</a> <a href="#">卡券</a>
+				                    </dd>
+				                </dl>
+				            </div>
+				        <!-- 右侧子菜单结束 -->
+						</div>
+					<!-- 全部商品列表结束 -->
+					</div>
+				</div>
+				<ul class="shop-nav">
+					<li><a href="#">数码城</a></li>
+					<li><a href="#">天黑黑</a></li>
+					<li><a href="#">团购</a></li>
+					<li><a href="#">发现</a></li>
+					<li><a href="#">二手特卖</a></li>
+					<li><a href="#">名品会</a></li>
+				</ul>
+			</div>
+		<!-- head-nav结束 -->
+		</nav>
+	<!-- 头部结束 -->
+	</header>
+	<div class="banner comWidth" id="imgBanner">
+		<div class="imgBox" id="imgBox">
+			<a href="#"><img class="active" src="imgs/banner/banner2.jpg" alt="banner"></a>
+			<a href="#"><img src="imgs/banner/banner1.jpg" alt="banner"></a>
+			<a href="#"><img src="imgs/banner/banner3.jpg" alt="banner"></a>
+			<a href="#"><img src="imgs/banner/banner4.jpg" alt="banner"></a>
+			<a href="#"><img src="imgs/banner/banner5.jpg" alt="banner"></a>
+			<a href="#"><img src="imgs/banner/banner6.jpg" alt="banner"></a>
+			<div class="btGroup" id="btGroup">
+				<span class="on" index="0"></span>
+				<span index="1"></span>
+				<span index="2"></span>
+				<span index="3"></span>
+				<span index="4"></span>
+				<span index="5"></span>
+			</div>
+		</div>
+	</div>
+	<!-- 固定定位搜索框开始 -->
+	<div class="search-fixed" id="search-fixed">
+		<div class="search-fixed-wrap comWidth">
+			<h2><a href="#">Fzz的小店</a></h2> 
+			<div class="search-box">
+				<input type="text" class="search-text">
+				<button class="search-bt">搜 索</button>
+			</div>
+		</div>
+	<!-- 固定定位搜索框结束 -->
+	</div>
+	<div class="rightSide-nav" id="rightSide-nav">
+		<ul>
+			<li><a class="anchor active" href="#anchor-phone">手机数码</a></li>
+			<li><a class="anchor" href="#anchor-food">食品酒水</a></li>
+			<li><a class="anchor" href="#anchor-bc">阅读运动</a></li>
+			<li><a class="anchor" href="#anchor-more">再逛一逛</a></li>
+			<li><a href="#" class="backTo-top" id="backTo-top">回到顶部</a></li>
+		</ul>
+	</div>
+	<!-- main开始 -->
+	<div class="main comWidth clearfix">
+		<div class="phone" id="anchor-phone">
+			<div class="shopTit clearfix">
+				<a class="icon" href="#">
+					<img src="imgs/icon/phone1_03.jpg" alt="手机">
+				</a>
+				<h3>手机电脑</h3>
+				<a class="more" href="#">更多&gt;&gt;</a>
+			</div>
+			<div class="leftArea">
+				<img src="imgs/banner/banner7.jpg">
+				<button>了解详情</button>
+			</div>
+			<div class="rightArea clearfix">
+				<div class="listTop clearfix">
+					<div class="listTop-item">
+						<a href="#">
+							<div class="img-wrap">
+								<img src="imgs/phone.jpg" alt="手机">
+							</div>
+							<div class="text-wrap">
+								<h3>华为 Mate 9 4GB+32GB版 月光银 移动联通电信4G手机 双卡双待 推荐购买华为nova！4K高清视频拍摄！美颜自拍！DTS音效！点击购买！(此商品不参加上述活动) </h3>
+								<p>￥:4499.00</p>
+							</div>
+						</a>
+					</div>
+					<div class="listTop-item">
+						<a href="#">
+							<div class="img-wrap">
+								<img src="imgs/phone1.jpg" alt="手机">
+							</div>
+							<div class="text-wrap">
+								<h3>Apple iPhone 7 (A1660) 128G 黑色 移动联通电信4G手机</h3>
+								<p>￥:5899.00</p>
+							</div>
+						</a>
+					</div>
+					<div class="listTop-item">
+						<a href="#">
+							<div class="img-wrap">
+								<img src="imgs/phone2.jpg" alt="手机">
+							</div>
+							<div class="text-wrap">
+								<h3>OPPO R9 4GB+64GB内存版 玫瑰金 全网通4G手机 双卡双待 前置1600万像素，后置1300万像素，0.2s快速解锁，充电5分钟，通话2小时！R9splus99元预售 享12期免息，7重好礼等你拿！</h3>
+								<p>￥:2499.00</p>
+							</div>
+						</a>
+					</div>
+					<div class="listTop-item">
+						<a href="#">
+							<div class="img-wrap">
+								<img src="imgs/phone3.jpg" alt="手机">
+							</div>
+							<div class="text-wrap">
+								<h3>一加手机3（A3000) 6GB+64GB 冰川灰版 全网通 双卡双待 移动联通电信4G手机 火爆开抢~【下单6小时未付款取消订单】一加3T新品上市，更多内容请点击~</h3>
+								<p>￥:2499.00</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-bottom">
+					<div class="listBot-item">
+						<a href="#">
+							<div class="bot-img-wrap">
+								<img src="imgs/banner/apple.jpg" alt="apple">
+							</div>
+							<div class="bot-text-wrap">
+								<p>Apple MacBook Air 13.3英寸</p>
+								<h3>¥8388.00</h3>
+							</div>
+						</a>
+					</div>
+					<div class="listBot-item">
+						<a href="#">
+							<div class="bot-img-wrap">
+								<img src="imgs/banner/dell.jpg" alt="dell">
+							</div>
+							<div class="bot-text-wrap">
+								<p>戴尔 DELL燃7000 14.0英寸笔记本</p>
+								<h3>¥5499.00</h3>
+							</div>
+						</a>
+					</div>
+					<div class="listBot-item">
+						<a href="#">
+							<div class="bot-img-wrap">
+								<img src="imgs/banner/hp.jpg" alt="hp">
+							</div>
+							<div class="bot-text-wrap">
+								<p>惠普(HP)暗影精灵II代精灵绿笔记本</p>
+								<h3>¥5499.00</h3>
+							</div>
+						</a>
+					</div>
+					<div class="listBot-item">
+						<a href="#">
+							<div class="bot-img-wrap">
+								<img src="imgs/banner/lenovo.jpg" alt="lenovo">
+							</div>
+							<div class="bot-text-wrap">
+								<p>联想（Lenovo）拯救者游戏笔记本</p>
+								<h3>¥6399.00</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="food clearfix" id="anchor-food">			
+			<div class="shopTit clearfix">
+				<a class="icon" href="#"><img src="imgs/icon/phone1_03.jpg" alt="手机"></a>
+				<h3>食品酒水</h3>
+				<a class="more" href="#">更多&gt;&gt;</a>
+			</div>
+			<div class="leftArea">
+				<img src="imgs/food.jpg">
+				<button>查看更多</button>
+			</div>
+			<div class="rightArea clearfix">
+				<div class="listTop clearfix">
+					<div class="listTop-item">
+						<a href="#">
+							<div class="img-wrap">
+								<img src="imgs/food1.jpg" alt="手机">
+							</div>
+							<div class="text-wrap">
+								<h3>太阳小米锅巴麻辣味50g</h3>
+								<p>2.10元</p>
+							</div>
+						</a>
+					</div>
+					<div class="listTop-item">
+						<a href="#">
+							<div class="img-wrap">
+								<img src="imgs/food2.jpg" alt="手机">
+							</div>
+							<div class="text-wrap">
+								<h3>小贱拉面丸子85g/袋</h3>
+								<p>11.90元</p>
+							</div>
+						</a>
+					</div>
+					<div class="listTop-item">
+						<a href="#">
+							<div class="img-wrap">
+								<img src="imgs/food3.jpg" alt="手机">
+							</div>
+							<div class="text-wrap">
+								<h3>口水鱼香辣味15g*20/盒</h3>
+								<p>15.60元</p>
+							</div>
+						</a>
+					</div>
+					<div class="listTop-item">
+						<a href="#">
+							<div class="img-wrap">
+								<img src="imgs/food4.jpg" alt="手机">
+							</div>
+							<div class="text-wrap">
+								<h3>兰花豆肉松味285g </h3>
+								<p>12.90元</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="list-bottom">
+					<div class="listBot-item">
+						<a href="#">
+							<div class="bot-img-wrap">
+								<img src="imgs/wine1.jpg" alt="apple">
+							</div>
+							<div class="bot-text-wrap">
+								<p>茅台 飞天酒 500ml*6瓶</p>
+								<h3>¥6540.00</h3>
+							</div>
+						</a>
+					</div>
+					<div class="listBot-item">
+						<a href="#">
+							<div class="bot-img-wrap">
+								<img src="imgs/wine2.jpg" alt="dell">
+							</div>
+							<div class="bot-text-wrap">
+								<p>五粮液52度 500ml 单瓶装</p>
+								<h3>¥88.00</h3>
+							</div>
+						</a>
+					</div>
+					<div class="listBot-item">
+						<a href="#">
+							<div class="bot-img-wrap">
+								<img src="imgs/wine3.jpg" alt="hp">
+							</div>
+							<div class="bot-text-wrap">
+								<p>Rio 鸡尾酒 275ml*6瓶</p>
+								<h3>¥75.00</h3>
+							</div>
+						</a>
+					</div>
+					<div class="listBot-item">
+						<a href="#">
+							<div class="bot-img-wrap">
+								<img src="imgs/wine4.jpg" alt="lenovo">
+							</div>
+							<div class="bot-text-wrap">
+								<p>健力宝运动饮料 330ml*24罐</p>
+								<h3>¥60.00</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="book-car" id="anchor-bc">
+			<div class="book">
+				<div class="bc-top clearfix">
+					<h2>爱阅读</h2>
+					<ul>
+						<li><a href="#">历史</a></li>
+						<li><a href="#">人文</a></li>
+						<li><a href="#">地理</a></li>
+						<li><a href="#">外语</a></li>
+						<li><a href="#">经济</a></li>
+						<li><a href="#">电子书</a></li>
+					</ul>
+				</div>
+				<div class="bc-content">
+					<div class="content-left">
+						<a href="#">
+							<img src="imgs/book/book1.jpg!q90" alt="book">
+						</a>
+					</div>
+					<div class="content-right">
+						<span class="horiz-line"></span>
+						<span class="vert-line"></span>
+						<a href="#">
+							<p class="ph">图书排行榜</p>
+							<p class="hs">好书盘点</p>
+							<img src="imgs/book/book2.webp.jpg" alt="book">
+						</a>
+						<a href="#">
+							<p class="ph">特色书店</p>
+							<p class="hs">每满200减199</p>
+							<img src="imgs/book/book3.webp.jpg" alt="book">
+						</a>
+						<a href="#">
+							<p class="ph">大量图书</p>
+							<p class="hs">4折出售</p>
+							<img src="imgs/book/book4.webp.jpg" alt="book">
+						</a>
+						<a href="#">
+							<p class="ph">童书馆</p>
+							<p class="hs">满1000减800</p>
+							<img src="imgs/book/book5.webp.jpg" alt="book">
+						</a>
+					</div>
+					<div class="content-bottom clearfix">
+						<a href="#"><img src="imgs/book/book6.jpg!q90" alt="book"></a>
+						<a href="#"><img src="imgs/book/book7.png!q90" alt="book"></a>
+						<a href="#"><img src="imgs/book/book8.jpg" alt="book"></a>
+					</div>
+				</div>
+			</div>
+			<div class="car">
+				<div class="bc-top clearfix">
+					<h2>爱运动</h2>
+					<ul>
+						<li><a href="#">跑步鞋</a></li>
+						<li><a href="#">篮球鞋</a></li>
+						<li><a href="#">跑步机</a></li>
+						<li><a href="#">运动装</a></li>
+						<li><a href="#">健身器材</a></li>
+					</ul>
+				</div>
+				<div class="bc-content">
+					<div class="content-left">
+						<a href="#">
+							<img src="imgs/sport/sport1.jpg!q90" alt="sport">
+						</a>
+					</div>
+					<div class="content-right">
+						<span class="horiz-line"></span>
+						<span class="vert-line"></span>
+						<a href="#">
+							<p class="ph">newbee</p>
+							<p class="hs">只要88元</p>
+							<img src="imgs/sport/sport2.webp.jpg" alt="sport">
+						</a>
+						<a href="#">
+							<p class="ph">冲锋衣</p>
+							<p class="hs">99元抢购</p>
+							<img src="imgs/sport/sport3.webp.jpg" alt="sport">
+						</a>
+						<a href="#">
+							<p class="ph">健身</p>
+							<p class="hs">八款腹肌</p>
+							<img src="imgs/sport/sport4.webp.jpg" alt="sport">
+						</a>
+						<a href="#">
+							<p class="ph">平衡车</p>
+							<p class="hs">热卖</p>
+							<img src="imgs/sport/sport5.webp.jpg" alt="sport">
+						</a>
+					</div>
+					<div class="content-bottom clearfix">
+						<a href="#"><img src="imgs/sport/sport6.jpg!q90" alt="sport"></a>
+						<a href="#"><img src="imgs/sport/sport7.jpg!q90" alt="sport"></a>
+						<a href="#"><img src="imgs/sport/sport8.jpg" alt="sport"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- main结束 -->
+	</div>
+	<div class="more-wrap comWidth" id="anchor-more">
+		<div class="more">		
+			<div class="more-tit">
+				<h3>逛一逛</h3>
+			</div>
+			<ul class="clearfix">
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more1.jpg" alt="逛一逛">
+						<div class="more-info"><p>[热销] SY充电宝10000毫安超薄小巧可爱迷你便携移动电源苹果</p>
+						<h3>￥:99.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more2.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>[热销] 希诺双层玻璃杯带手柄商务办公室泡茶水晶杯子</p>
+							<h3>￥:109.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more3.jpg" alt="逛一逛">
+						<div class="more-info"><p>[热销]秋冬户外冲锋衣三合一两件套男女透气防水防风保暖外套</p>
+						<h3>￥:189.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more4.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>热销]美国康宁晶彩玻璃锅套装 明火直烧 2.5L+1.5L单柄锅套装</p>
+							<h3>￥:568.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more5.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>[热销]赛德斯游戏键盘鼠标套装有线机械感牧马人键鼠</p>
+							<h3>￥:109.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more6.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>[热销]freeplus芙丽芳丝 净润洗面霜100g 氨基酸洗面奶</p>
+							<h3>￥:150.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more7.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>[热销]2016秋季新款 韩版女士长袖休闲小西装外套 英伦灰</p>
+							<h3>￥:168.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more8.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>[热销]太平鸟 男士时尚羊羔绒领牛仔外套青年蓝色夹克</p>
+							<h3>￥:499.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more9.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>[热销]四条装内野棉花糖方巾男士女士成人美容小毛巾</p>
+							<h3>￥:109.8</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more10.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>[热销]中粮长城优级解百纳干红葡萄酒 750ml*6瓶整箱</p>
+							<h3>￥:139.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more11.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>[热销]Converse匡威帆布鞋女高帮经典款情侣休闲鞋</p>
+							<h3>￥:229.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more12.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>[热销]植物工坊手工皂 精油沐浴皂洁面皂洗脸皂女3件套</p>
+							<h3>￥:119.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more13.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>[热销]维玛 个性艺术北欧吸顶灯具现代简约led创意客厅灯饰</p>
+							<h3>￥:258.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more14.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>[热销]圣华盾晾衣架 落地伸缩折叠晒衣架简易移动阳台晾衣杆</p>
+							<h3>￥:178.0</h3>
+						</div>
+					</a>
+				</li>
+				<li class="more-item">
+					<a href="#">
+						<img src="imgs/more/more15.jpg" alt="逛一逛">
+						<div class="more-info">
+							<p>[热销]三层仿羊羔绒毛毯加厚双层冬季盖毯珊瑚绒毯法兰绒毯</p>
+							<h3>￥:259.0</h3>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- foot开始 -->
+	<footer class="foot">
+		<div class="copy-right">
+			<p><a href="#">小店简介 </a>|<a href="#"> 小店公告 </a>|<a href="#"> 招纳贤士 </a>|<a href="#"> 联系我们 </a>|</a>客服热线：400-675-1234</p>
+			<p>Copyright <span class="right">&copy;</span> 2006 - 2017 小店版权所有   粤ICP备09037834号   粤ICP证B1034-8373号   某市公安局XX分局备案编号：123456789123</p>
+		</div>
+		<div class="credit">
+			<a href="#">信用评级</a>
+			<a href="#">上海工商</a>
+			<a href="#"></a>
+			<a href="#">网络社会征信网</a>
+			<a href="#"></a>
+		</div>
+	<!-- foot结束 -->
+	</footer>
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
