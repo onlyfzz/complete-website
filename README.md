@@ -3,7 +3,7 @@
 ##电商网站
 <a href="https://onlyfzz.github.io/complete-website/电商网站/index.html">首页</a>&nbsp;&nbsp;<a href="https://onlyfzz.github.io/complete-website/电商网站/goods_class.html">商品分类页</a>&nbsp;&nbsp;<a href="https://onlyfzz.github.io/complete-website/电商网站/goods_filter.html">商品筛选页</a>&nbsp;&nbsp;<a href="https://onlyfzz.github.io/complete-website/电商网站/goods_detail.html">商品详情页</a>&nbsp;&nbsp;<a href="https://onlyfzz.github.io/complete-website/电商网站/order_pay.html">订单支付页</a>&nbsp;&nbsp;<a href="https://onlyfzz.github.io/complete-website/电商网站/login.html">登陆页</a>&nbsp;&nbsp;<a href="https://onlyfzz.github.io/complete-website/电商网站/regist.html">注册页</a>
 ##企业网站
-<a href="https://onlyfzz.github.io/complete-website/企业网站/index.html">首页</a>&nbsp;<a href="https://onlyfzz.github.iocomplete-website/企业网站/news.html">新闻页</a>&nbsp;<a href="https://onlyfzz.github.io/complete-website/企业网站/content.html">新闻详情页</a>&nbsp;<br>
+<a href="https://onlyfzz.github.io/complete-website/企业网站/index.html">首页</a>&nbsp;<a href="https://onlyfzz.github.io/complete-website/企业网站/news.html">新闻页</a>&nbsp;<a href="https://onlyfzz.github.io/complete-website/企业网站/content.html">新闻详情页</a>&nbsp;<br>
 ###概述:
 电商网站是根据慕课网上提供的PSD图切的(切图也不容易啊),首页我觉得PSD图内容少了一点,又仿照京东加了一点内容,主要写的是html+css,顺便实现了一些js功能.
 <br>
