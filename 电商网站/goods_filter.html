@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>筛选页</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="goodsFilter-page">
+	<!-- 头部开始 -->
+	<header class="head">
+		<!-- head-top开始 -->
+		<div class="head-top">
+			<div class="comWidth clearfix">
+				<div class="top-left">
+					<a class="collection" href="#">收藏小店</a>
+				</div>
+				<div class="top-right">
+					欢迎来到小店！<a href="login.html">[登陆]</a><a href="regist.html">[免费注册]</a>
+				</div>
+			</div>
+		<!-- head-top结束 -->
+		</div>
+		<!-- logo开始 -->
+		<div class="head-mid clearfix">
+			<div class="comWidth">
+				<div class="logo">
+					<a href="index.html"><img src="imgs/logo.jpg" alt="慕课网"></a>
+					<h1><a href="index.html">Fzz的小店</a></h1> 
+				</div>
+				<div class="search-box">
+					<form>
+						<input type="text" class="search-text">
+						<button class="search-bt">搜 索</button>
+					</form>
+				</div>
+				<div class="shop">
+					<span class="shopText">购物车</span>
+					<span class="shopNum">0</span>
+				</div>
+			</div>
+		<!-- logo结束 -->
+		</div>
+		<!-- head-nav开始 -->
+		<nav class="head-nav">
+			<div class="comWidth">
+				<div class="allClass" id="allClass">
+					<h2>全部商品分类<i></i></h2>
+					<!-- shopClass开始 -->
+					<div class="shopClass comWidth clearfix" id="shopClass">
+						<div class="shopClass-item" id="shopClass-item">
+							<dl>
+								<dt>
+									<a href="goods_filter.html">手机</a>
+									<a href="#">数码</a>
+									<a href="#" class="highlight">合约机</a>
+								</dt>
+								<dd>
+									<a href="#">荣耀3X</a>
+									<a href="#">单反</a>
+									<a href="#">智能设备</a>
+								</dd>
+							</dl>
+
+							<dl>
+								<dt>
+									<a href="#">电脑</a>
+									<a href="#">硬件外设</a>
+									<a href="#" class="highlight">装机宝</a>
+								</dt>
+								<dd>
+									<a href="#">笔记本</a>
+									<a href="#">台式机</a>
+									<a href="#">超级本</a>
+									<a href="#">平板</a>
+								</dd>
+							</dl>
+
+							<dl>
+								<dt>
+									<a href="#">大家电</a>
+								</dt>
+								<dd>
+									<a href="#">电视</a>
+									<a href="#">空调</a>
+									<a href="#">冰箱</a>
+									<a href="#">洗衣机</a>
+								</dd>
+							</dl>
+
+							<dl>
+								<dt>
+									<a href="#">厨房电器</a>
+									<a href="#">生活电器</a>
+								</dt>
+								<dd>
+									<a href="#">空气净化器</a>
+									<a href="#">微波炉</a>
+									<a href="#">取暖设备</a>
+								</dd>
+							</dl>
+
+							<dl>
+								<dt>
+									<a href="#">食品/</a>
+									<a href="#">饮料/</a>
+									<a href="#">生鲜</a>
+									<a href="#" class="highlight">粮油</a>
+								</dt>
+								<dd>
+									<a href="#">进口</a>
+									<a href="#">方便面</a>
+									<a href="#">零食</a>
+									<a href="#">保健</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="item-sub" id="item-sub">
+							<div class="item-sublist">
+								<dl>
+									<dt><a href="#">手机通讯</a></dt>
+									<dd>
+										<a href="#">手机</a><a href="#">对讲机</a><a href="#">以旧换新</a><a href="#">手机维修</a>
+									</dd>
+								</dl>
+								 <dl>
+					                <dt><a href="#">运营商</a></dt>
+					                <dd>
+					                    <a href="#">充话费/流量</a><a href="#">170选号</a><a href="#">合约机</a><a href="#">办套餐</a>
+					                    <a href="#">选号码</a><a href="#">固话宽带</a><a href="#">中国移动</a><a href="#">中国联通</a><a href="#">中国电信</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">手机配件</a></dt>
+					                <dd>
+					                    <a href="#">手机壳</a><a href="#">贴膜</a><a href="#">手机存储卡</a><a href="#">数据线</a><a href="#">充电器</a><a href="#">手机耳机</a><a href="#">创意配件</a><a href="#">手机饰品</a><a href="#">手机电池</a><a href="#">苹果周边</a><a href="#">移动电源</a><a href="#">蓝牙耳机</a><a href="#">手机支架</a><a href="#">车载配件</a><a href="#">拍照配件</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">摄影摄像</a></dt>
+					                <dd>
+					                    <a href="#">单电/微单相机</a><a href="#">单反相机</a><a href="#">拍立得</a><a href="#">运动相机</a><a href="#">摄像机</a><a href="#">镜头</a><a href="#">户外器材</a><a href="#">影棚器材</a><a href="#">冲印服务</a><a href="#">数码相框</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">数码配件</a></dt>
+					                <dd>
+					                   <a href="#">存储卡</a><a href="#">三脚架/云台</a><a href="#">相机包</a><a href="#">滤镜</a><a href="#">闪光灯/手柄</a><a href="#">相机清洁/贴膜</a><a href="#">机身附件</a><a href="#">镜头附件</a><a href="#">读卡器</a><a href="#">支架</a><a href="#">电池/充电器</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">影音娱乐</a></dt>
+					                <dd>
+					                    <a href="#">耳机/耳麦</a><a href="#">音箱/音响</a><a href="#">便携/无线音箱</a><a href="#">收音机</a><a href="#">麦克风</a><a href="#">MP3/MP4</a><a href="#">专业音频</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">智能设备</a></dt>
+					                <dd>
+					                    <a href="#">智能手环</a><a href="#">智能手表</a><a href="#">智能眼镜</a><a href="#">智能机器人</a><a href="#">运动跟踪器</a><a href="#">健康监测</a><a href="#">智能配饰</a><a href="#">智能家居</a><a href="#">体感车</a><a href="#">无人机</a><a href="#">其他配件</a>
+					                </dd>
+					            </dl>
+					             <dl>
+					                <dt><a href="#">电子教育</a></dt>
+					                <dd>
+					                    <a href="#">学生平板</a><a href="#">点读机/笔</a><a href="#">早教益智</a><a href="#">录音笔</a><a href="#">电纸书</a><a href="#">电子词典</a><a href="#">复读机</a>
+					                </dd>
+					            </dl>
+					            <div class="sublist-link">
+					            	<a href="#">电脑整机会场<i></i></a>
+					            	<a href="#">硬件/外设会场<i></i></a>
+					            </div>
+							</div>
+							<div class="item-sublist">
+								<dl>
+									<dt><a href="#">电脑整机</a></dt>
+									<dd>
+										<a href="#">笔记本</a><a href="#">超极本</a><a href="#">上网本</a><a href="#">平板电脑</a><a href="#">台式机</a>
+									</dd>
+								</dl>
+								 <dl>
+					                <dt><a href="#">装机配件</a></dt>
+					                <dd>
+					                    <a href="#">CPU</a><a href="#">硬盘</a><a href="#">SSD固态硬盘</a><a href="#">内存</a>
+					                    <a href="#">显示器</a><a href="#">智能显示器</a><a href="#">主板</a><a href="#">显卡</a><a href="#">机箱</a><a href="#">电源</a><a href="#">散热器</a><a href="#">刻录器/光驱</a><a href="#">声卡</a><a href="#">拓展卡</a><a href="#">服务器配件</a><a href="#">DIY小附件</a><a href="#">装机/配件安装</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">整机附件</a></dt>
+					                <dd>
+					                    <a href="#">电脑包</a><a href="#">电脑桌</a><a href="#">电池</a><a href="#">电源适配器</a><a href="#">贴膜</a><a href="#">清洁用品</a><a href="#">笔记本散热器</a><a href="#">USB拓展</a><a href="#">平板配件</a><a href="#">特色附件</a><a href="#">插座网线/电话线</a><a href="#">影音线材</a><a href="#">电脑线材</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">电脑外设</a></dt>
+					                <dd>
+					                    <a href="#">鼠标</a><a href="#">键盘</a><a href="#">游戏外设</a><a href="#">移动硬盘</a><a href="#">摄像头</a><a href="#">高清播放器</a><a href="#">外置盒</a><a href="#">移动硬盘包</a><a href="#">手写板/绘图板</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">网络设备</a></dt>
+					                <dd>
+					                    <a href="#">路由器</a><a href="#">网卡</a><a href="#">3G无线上网</a><a href="#">交换机</a>
+					                    <a href="#">网络存储</a><a href="#">布线工具</a><a href="#">网络配件</a><a href="#">正版软件</a>
+					                </dd>
+					            </dl>
+					            <dl>
+					                <dt><a href="#">音频设备</a></dt>
+					                <dd>
+					                    <a href="#">音箱</a><a href="#">耳机/耳麦</a><a href="#">麦克风</a><a href="#">声卡</a><a href="#">音频附件</a><a href="#">录音笔</a>
+					                </dd>
+					            </dl>
+					            <div class="sublist-link">
+					            	<a href="#">电脑整机会场<i></i></a>
+					            	<a href="#">硬件/外设会场<i></i></a>
+					            </div>
+							</div>
+							<div class="item-sublist">
+								<dl>
+				                    <dt><a href="#">电视</a></dt>
+				                    <dd>
+				                        <a href="#">合资品牌</a> <a href="#">国产品牌</a> <a href="#">互联网品牌</a> 
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">空调</a></dt>
+				                    <dd>
+				                        <a href="#">壁挂式空调</a> <a href="#">柜式空调</a> <a href="#">中央空调</a> <a href="#">空调配件</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">洗衣机</a></dt>
+				                    <dd>
+				                        <a href="#">滚筒洗衣机</a> <a href="#">洗烘一体机</a> <a href="#">波轮洗衣机</a> <a href="#">迷你洗衣机</a>
+				                        <a href="#">洗衣机配件</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">冰箱</a></dt>
+				                    <dd>
+				                        <a href="#">多门</a> <a href="#">对开门</a> <a href="#">三门</a> <a href="#">双门</a> <a href="#">
+				                            冷柜/冰吧</a> <a href="#">酒柜</a> <a href="#">冰箱配件</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">厨卫大电</a></dt>
+				                    <dd>
+				                        <a href="#">油烟机</a> <a href="#">燃气灶</a> <a href="#">烟灶套装</a> <a href="#">消毒柜</a> <a href="#">
+				                            洗碗机</a> <a href="#">电热水器</a> <a href="#">燃气热水器</a> <a href="#">嵌入式厨电</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">厨房小店</a></dt>
+				                    <dd>
+				                        <a href="#">电饭煲</a> <a href="#">微波炉</a> <a href="#">电烤箱</a> <a href="#">电磁炉</a><a href="#">电压力锅</a> <a href="#">豆浆机</a> <a href="#">咖啡机</a><a href="#">面包机</a> <a href="#">榨汁机</a> <a href="#">料理机</a> <a href="#">电饼铛</a><a href="#">养生壶/煎药壶</a> <a href="#">酸奶机</a> <a href="#">煮蛋器</a><a href="#">电水壶/热水瓶</a> <a href="#">电炖锅</a> <a href="#">多用途锅</a> <a href="#">电烧烤炉</a><a href="#">电热饭盒</a> <a href="#">其它厨房电器</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">生活电器</a></dt>
+				                    <dd>
+				                        <a href="#">取暖电器</a> <a href="#">吸尘器</a> <a href="#">净化器</a> <a href="#">扫地机器人</a><a href="#">加湿器</a><a href="#">挂烫机/熨斗</a><a href="#">电风扇</a><a href="#">冷风扇</a> <a href="#">插座</a> <a href="#">电话机</a><a href="#">饮水机</a><a href="#">净水器</a> <a href="#">除湿机</a><a href="#">干衣机</a><a href="#">清洁机</a> <a href="#">收录/音机</a><a href="#">其它生活电器</a> <a href="#">生活电器配件</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">个护健康</a></dt>
+				                    <dd>
+				                        <a href="#">剃须刀</a> <a href="#">口腔护理</a> <a href="#">电吹风</a> <a href="#">美容器</a><a href="#">卷/直发器</a> <a href="#">理发器</a> <a href="#">剃/脱毛器</a> <a href="#">足浴盆</a><a href="#">健康秤/厨房秤</a> <a href="#">按摩器</a> <a href="#">按摩椅</a> <a href="#">脂肪检测仪</a><a href="#">其它健康电器</a>
+				                    </dd>
+				                </dl>
+				            </div>
+							<div class="item-sublist">
+				                <dl>
+				                    <dt><a href="#">厨具</a></dt>
+				                    <dd>
+				                        <a href="#">烹饪锅具</a> <a href="#">刀剪菜板</a> <a href="#">厨房配件</a> <a href="#">水具酒具</a>
+				                        <a href="#">餐具</a> <a href="#">茶具/咖啡具</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">家装建材</a></dt>
+				                    <dd>
+				                        <a href="#">灯饰照明</a> <a href="#">厨房卫浴</a> <a href="#">五金工具</a> <a href="#">电工电料</a>
+				                        <a href="#">墙地面材料</a> <a href="#">装饰材料</a> <a href="#">装修服务</a> <a href="#">吸顶灯</a>
+				                        <a href="#">淋浴花洒</a> <a href="#">开关插座</a> <a href="#">油漆涂料</a> <a href="#">龙头</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">家纺</a></dt>
+				                    <dd>
+				                        <a href="#">床品套件</a> <a href="#">被子</a> <a href="#">蚊帐</a> <a href="#">凉席</a> <a href="#">床单被罩</a> <a href="#">枕芯</a> <a href="#">毛巾浴巾</a> <a href="#">布艺软饰</a>
+				                        <a href="#">毯子</a> <a href="#">抱枕靠垫</a> <a href="#">床垫/床褥</a> <a href="#">窗帘/窗纱</a>
+				                        <a href="#">电热毯</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">家具</a></dt>
+				                    <dd>
+				                        <a href="#">卧室家具</a> <a href="#">客厅家具</a> <a href="#">餐厅家具</a> <a href="#">书房家具</a>
+				                        <a href="#">储物家具</a> <a href="#">阳台/户外</a> <a href="#">商业办公</a> <a href="#">床</a>
+				                        <a href="#">床垫</a> <a href="#">沙发</a> <a href="#">电脑椅</a> <a href="#">衣柜</a> <a href="#">
+				                            茶几</a> <a href="#">电视柜</a> <a href="#">餐桌</a> <a href="#">电脑桌</a> <a href="#">鞋架/衣帽架</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">灯具</a></dt>
+				                    <dd>
+				                        <a href="#">台灯</a> <a href="#">吸顶灯</a> <a href="#">筒灯射灯</a> <a href="#">LED灯</a>
+				                        <a href="#">节能灯</a> <a href="#">落地灯</a> <a href="#">五金电器</a> <a href="#">应急灯/手电</a>
+				                        <a href="#">装饰灯</a> <a href="#">吊灯</a> <a href="#">氛围照明</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">生活日用</a></dt>
+				                    <dd>
+				                        <a href="#">收纳用品</a> <a href="#">雨伞雨具</a> <a href="#">浴室用品</a> <a href="#">缝纫/针织用品</a>
+				                        <a href="#">洗晒/熨烫</a> <a href="#">净化除味</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">家装软饰</a></dt>
+				                    <dd>
+				                        <a href="#">桌布/罩件</a> <a href="#">地毯地垫</a> <a href="#">沙发垫套/椅垫</a> <a href="#">帘艺隔断</a>
+				                        <a href="#">相框/照片墙</a> <a href="#">装饰字画</a> <a href="#">墙贴/装饰贴</a> <a href="#">节庆饰品</a>
+				                        <a href="#">手工/十字绣</a> <a href="#">钟饰</a> <a href="#">装饰摆件</a> <a href="#">花瓶花艺</a>
+				                        <a href="#">创意家居</a> <a href="#">保暖防护</a> <a href="#">香薰蜡烛</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">清洁用品</a></dt>
+				                    <dd>
+				                        <a href="#">纸品湿巾</a> <a href="#">衣物清洁</a> <a href="#">清洁工具</a> <a href="#">家庭清洁</a>
+				                        <a href="#">一次性用品</a> <a href="#">驱虫用品</a> <a href="#">皮具护理</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">宠物生活</a></dt>
+				                    <dd>
+				                        <a href="#">宠物主粮</a> <a href="#">宠物零食</a> <a href="#">洗护美容</a> <a href="#">家居日用</a>
+				                        <a href="#">医疗保健</a> <a href="#">出行装备</a> <a href="#">宠物玩具</a> <a href="#">水族用品</a>
+				                        <a href="#">猫砂/尿布</a> <a href="#">宠物牵引</a> <a href="#">宠物驱虫</a>
+				                    </dd>
+				                </dl>
+				            </div>
+							<div class="item-sublist">
+								<dl>
+				                    <dt><a href="#">中外名酒</a></dt>
+				                    <dd>
+				                        <a href="#">白酒</a> <a href="#">葡萄酒</a> <a href="#">洋酒</a> <a href="#">啤酒</a> <a href="#">
+				                            黄酒/养生酒</a> <a href="#">收藏酒/陈年老酒</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">进口食品</a></dt>
+				                    <dd>
+				                        <a href="#">牛奶</a> <a href="#">饼干蛋糕</a> <a href="#">糖果/巧克力</a> <a href="#">休闲零食</a>
+				                        <a href="#">冲调饮品</a> <a href="#">粮油调味</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">休闲食品</a></dt>
+				                    <dd>
+				                        <a href="#">休闲零食</a> <a href="#">坚果炒货</a> <a href="#">肉干肉脯</a> <a href="#">蜜饯果干</a>
+				                        <a href="#">糖果/巧克力</a> <a href="#">饼干蛋糕</a> <a href="#">无糖食品</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">地方特产</a></dt>
+				                    <dd>
+				                        <a href="#">新疆</a> <a href="#">四川</a> <a href="#">云南</a> <a href="#">湖南</a> <a href="#">
+				                            内蒙</a> <a href="#">北京</a> <a href="#">山西</a> <a href="#">福建</a> <a href="#">东北</a>
+				                        <a href="#">其他</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">茗茶</a></dt>
+				                    <dd>
+				                        <a href="#">铁观音</a> <a href="#">普洱</a> <a href="#">龙井</a> <a href="#">绿茶</a> <a href="#">
+				                            红茶</a> <a href="#">乌龙茶</a> <a href="#">花草茶</a> <a href="#">花果茶</a> <a href="#">黑茶</a>
+				                        <a href="#">白茶</a> <a href="#">养生茶</a> <a href="#">其他茶</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">饮料冲调</a></dt>
+				                    <dd>
+				                        <a href="#">牛奶乳品</a> <a href="#">饮料</a> <a href="#">饮用水</a> <a href="#">咖啡/奶茶</a>
+				                        <a href="#">蜂蜜/柚子茶</a> <a href="#">冲饮谷物</a> <a href="#">成人奶粉</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">粮油调味</a></dt>
+				                    <dd>
+				                        <a href="#">米面杂粮</a> <a href="#">食用油</a> <a href="#">调味品</a> <a href="#">南北干货</a>
+				                        <a href="#">方便食品</a> <a href="#">有机食品</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">生鲜食品</a></dt>
+				                    <dd>
+				                        <a href="#">水果蔬菜</a> <a href="#">海鲜水产</a> <a href="#">海参</a> <a href="#">牛排</a>
+				                        <a href="#">肉禽蛋奶</a> <a href="#">熟食腊味</a> <a href="#">环球美食</a> <a href="#">产地直供</a>
+				                    </dd>
+				                </dl>
+				                <dl>
+				                    <dt><a href="#">食品礼券</a></dt>
+				                    <dd>
+				                        <a href="#">大闸蟹</a> <a href="#">粽子</a> <a href="#">月饼</a> <a href="#">卡券</a>
+				                    </dd>
+				                </dl>
+				            </div>
+						</div>
+					<!-- shopClass结束 -->
+					</div>
+				</div>
+				<ul class="shop-nav">
+					<li><a href="#" class="active">数码城</a></li>
+					<li><a href="#">天黑黑</a></li>
+					<li><a href="#">团购</a></li>
+					<li><a href="#">发现</a></li>
+					<li><a href="#">二手特卖</a></li>
+					<li><a href="#">名品会</a></li>
+				</ul>
+			</div>
+		<!-- head-nav结束 -->
+		</nav>
+	<!-- 头部结束 -->
+	</header>
+	<div class="choose comWidth clearfix">
+		<div class="product-class vertical ">
+			<div class="product-tit">
+				<h3>产品分类</h3>
+			</div>
+			<div class="product-list clearfix">
+				<h3>手机通讯</h3>
+				<ul>
+					<li><a href="#">手机</a></li>
+					<li><a href="#">对讲机</a></li>
+				</ul>
+			</div>
+			<div class="product-list clearfix">
+				<h3>运营商</h3>
+				<ul>
+					<li><a href="#">购机送费</a></li>
+					<li><a href="#">“0”元购机</a></li>
+					<li><a href="#">选号入网</a></li>
+				</ul>
+			</div>
+			<div class="product-list clearfix">
+				<h3>手机配件</h3>
+				<ul>
+					<li><a href="#">手机电池</a></li>
+					<li><a href="#">蓝牙耳机</a></li>
+					<li><a href="#">充电线/数据线</a></li>
+					<li><a href="#">手机耳机</a></li>
+					<li><a href="#">手机贴膜</a></li>
+					<li><a href="#">手机存储卡</a></li>
+					<li><a href="#">手机保护套</a></li>
+					<li><a href="#">车载配件</a></li>
+					<li><a href="#">iPhone配件</a></li>
+				</ul>
+			</div>
+			<div class="product-list clearfix">
+				<h3>电子教育</h3>
+				<ul>
+					<li><a href="#">电子书</a></li>
+					<li><a href="#">智能学习</a></li>
+					<li><a href="#">幼儿教育</a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</div>
+			<div class="sidebar-product">
+				<ul>
+					<li class="clearfix">
+						<div class="img">
+							<a href="#"><img src="imgs/phone/phone10.jpg" alt="product"></a>
+						</div>
+						<div class="product-info">
+							<a class="product-name" href="#">Apple/苹果 iPad mini 4 WLAN 64GB 7.9英寸迷你平板电脑</a>
+							<span class="product-price">￥2088.0</span>
+						</div>
+					</li>
+					<li class="clearfix">
+						<div class="img">
+							<a href="#"><img src="imgs/phone/phone11.jpg" alt="product"></a>
+						</div>
+						<div class="product-info">
+							<a class="product-name" href="#">索尼（SONY）【PS4官方配件】PlayStation 4 游戏手柄（黑色）2016年新型号 新版本PS4游戏手柄</a>
+							<span class="product-price">￥380.0</span>
+						</div>
+					</li>
+					<li class="clearfix">
+						<div class="img">
+							<a href="#"><img src="imgs/phone/phone12.jpg" alt="product"></a>
+						</div>
+						<div class="product-info">
+							<a class="product-name" href="#">小米（MI） 小米MIX 6.4英寸全面屏概念手机，陶瓷声学系统！小米挚爱不等待，新品抢购，更多活动请猛戳此处！</a>
+							<span class="product-price">￥3499.0</span>
+						</div>
+					</li>
+					<li class="clearfix">
+						<div class="img">
+							<a href="#"><img src="imgs/phone/phone13.jpg" alt="product"></a>
+						</div>
+						<div class="product-info">
+							<a class="product-name" href="#">机械革命（MECHREVO）深海泰坦 X6Ti 多彩版 15.6英寸游戏本i7-6700HQ 8G 128GSSD+1T GTX965M 4G </a>
+							<span class="product-price">￥7299.0</span>
+						</div>
+					</li>
+					<li class="clearfix">
+						<div class="img">
+							<a href="#"><img src="imgs/phone/phone14.jpg" alt="product"></a>
+						</div>
+						<div class="product-info">
+							<a class="product-name" href="#">罗技（Logitech）G502 炫光自适应游戏鼠标 RGB鼠标 信仰之作，科技致胜，做工精细，1680万色自定义RGB指示灯！</a>
+							<span class="product-price">￥449.0</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="class-choose">
+			<dl class="title clearfix">
+				<dt>手机</dt>
+				<dd>
+					<ul class="clearfix">
+						<li><a href="#">裸机(773)</a></li>
+						<li><a href="#">合约机(192)</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl class="brand clearfix">
+				<dt>品牌</dt>
+				<dd class="limit"><a href="#" class="class-choose-active">不限</a></dd>
+				<dd>
+					<ul class="clearfix">
+						<li><a href="#">Apple/苹果</a></li>
+						<li><a href="#">Huawei/华为</a></li>
+						<li><a href="#">小米</a></li>
+						<li><a href="#">Sumsung/三星</a></li>
+						<li><a href="#">Lenovo/联想</a></li>
+						<li><a href="#">Sony/索尼</a></li>
+						<li><a href="#">vivo</a></li>
+						<li><a href="#">Meizu/魅族</a></li>
+						<li><a href="#">OPPO</a></li>
+					</ul>
+				</dd>
+				<a href="#" class="class-choose-more">更多</a>
+			</dl>
+			<dl class="clearfix">
+				<dt>屏幕尺寸</dt>
+				<dd class="limit"><a href="#" class="class-choose-active">不限</a></dd>
+				<dd>
+					<ul class="clearfix">
+						<li><a href="#">超大屏幕(>5.9英寸)</a></li>
+						<li><a href="#">大屏幕(4.8-5.8英寸)</a></li>
+						<li><a href="#">主流尺寸(4.0-4.7英寸)</a></li>
+					</ul>
+				</dd>
+				<a href="#" class="class-choose-more">更多</a>
+			</dl>
+			<dl class="clearfix">
+				<dt>操作系统</dt>
+				<dd class="limit"><a href="#" class="class-choose-active">不限</a></dd>
+				<dd>
+					<ul class="clearfix">
+						<li><a href="#">Android</a></li>
+						<li><a href="#">苹果iOS</a></li>
+						<li><a href="#">小米</a></li>
+						<li><a href="#">Apple/苹果</a></li>
+						<li><a href="#">Windows phone</a></li>
+						<li><a href="#">Symbian</a></li>
+						<li><a href="#">非智能机</a></li>
+					</ul>
+				</dd>
+				<a href="#" class="class-choose-more">更多</a>
+			</dl>
+			<dl class="clearfix">
+				<dt>适用网络制式</dt>
+				<dd class="limit"><a href="#" class="class-choose-active">不限</a></dd>
+				<dd>
+					<ul class="clearfix">
+						<li><a href="#">4G(TD-LTE)</a></li>
+						<li><a href="#">4G(FDD-LTE)</a></li>
+						<li><a href="#">移动3G(TD-SCDMA)</a></li>
+						<li><a href="#">移动3.5G(TD-HSDPA)</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl class="title more-choose clearfix">
+				<dt>更多选项</dt>
+				<dd>
+					<ul class="clearfix">
+						<li><a href="#">CPU核心数</a></li>
+						<li><a href="#">主摄像头像素</a></li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+		<!-- main-product开始 -->
+		<div class="main-product filter-page" id="main-product">
+			<div class="add-info clearfix">
+				<div class="address">
+					<div class="add-delivery">送至</div>
+					<div class="add-select" id="add-select">
+						<h3>深圳市南山区</h3>
+						<span></span>
+						<ul class="select-list" id="select-list">
+							<li>湖南省沅陵县</li>
+							<li>湖南省株洲市</li>
+							<li>帝都</li>
+							<li>魔都</li>
+							<li>深圳</li>
+						</ul>
+					</div>
+				</div>
+				<div class="filter">
+					<input type="checkbox" id="check">
+					<label for="check">仅显示有货</label>
+					<strong>共<span class="num">16422</span>件商品</strong>
+				</div>
+			</div>
+			<div class="product-item item1">
+				<div class="item-tit">
+					<h3>数码影像</h3>
+				</div>	
+				<div class="product-wrap clearfix">
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">华为 Mate 9 4GB+32GB版 月光银 移动联通电信4G手机 双卡双待 10:08限量抢购！麒麟960芯片！第二代徕卡双摄像头！4000mAh大电池！更多活动请点击！</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥4499.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone1.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">Apple iPhone 7 (A1660) 128G 黑色 移动联通电信4G手机</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥5899.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone2.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">OPPO R9 4GB+64GB内存版 玫瑰金 全网通4G手机 双卡双待 前置1600万像素，后置1300万像素，0.2s快速解锁，充电5分钟，通话2小时！全场12期免息，购机送大礼包，R9s黑色、A59s火爆抢购中</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥2499.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone3.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">一加手机3（A3000) 6GB+64GB 冰川灰版 全网通 双卡双待 移动联通电信4G手机 火爆开抢~【下单6小时未付款取消订单】极速闪充，高通骁龙820处理器，6GB运行内存，5.5英寸屏，0.2S指纹识别！</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥2499.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone4.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">荣耀7 (PLK-AL10) 3GB+64GB内存版 荣耀金 移动联通电信4G手机 双卡双待双通 一键智灵，指纹识别，2000万后置摄像头！【爆款购不停，就耀换新机，详情猛戳】</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥1799.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone5.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">小米 红米 3S 全网通 2GB内存 16GB ROM 经典金色 移动联通电信4G手机 双卡双待 指纹识别，金属机身，4100mAh 大电池！小米挚爱不等待，新品抢购，更多活动请猛戳此处！</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥729.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone6.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">乐视（Le）乐2（X620）32GB 原力金 移动联通电信4G手机 双卡双待 下单立减100元，5.5英寸In Cell屏幕，金属一体化机身，后1600+前800万像素！更多精彩活动请点击！</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥1099.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone7.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">荣耀 V8 全网通 高配版 4GB+64GB 香槟金 移动联通电信4G手机 双卡双待双通 精致外观，1200万像素平行镜头，3500mAh电池长久续航【爆款购不停，就耀换新机，详情猛戳】</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥2599.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone8.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">小米5 全网通 标准版 3GB内存 32GB ROM 白色 移动联通电信4G手机 高通骁龙820处理器，4轴防抖相机！很轻狠快！！小米挚爱不等待，新品抢购，更多活动请猛戳此处！</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥1599.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone9.png" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">vivo X7 全网通 4GB+64GB 移动联通电信4G手机 双卡双待 金色 vivox9 现货抢购 前置2000万柔光双摄·12期免息·送超值礼包·立即抢购</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥2498.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">华为 Mate 9 4GB+32GB版 月光银 移动联通电信4G手机 双卡双待 10:08限量抢购！麒麟960芯片！第二代徕卡双摄像头！4000mAh大电池！更多活动请点击！</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥4499.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone1.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">Apple iPhone 7 (A1660) 128G 黑色 移动联通电信4G手机</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥5899.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone2.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">OPPO R9 4GB+64GB内存版 玫瑰金 全网通4G手机 双卡双待 前置1600万像素，后置1300万像素，0.2s快速解锁，充电5分钟，通话2小时！全场12期免息，购机送大礼包，R9s黑色、A59s火爆抢购中</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥2499.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone3.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">一加手机3（A3000) 6GB+64GB 冰川灰版 全网通 双卡双待 移动联通电信4G手机 火爆开抢~【下单6小时未付款取消订单】极速闪充，高通骁龙820处理器，6GB运行内存，5.5英寸屏，0.2S指纹识别！</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥2499.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone4.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">荣耀7 (PLK-AL10) 3GB+64GB内存版 荣耀金 移动联通电信4G手机 双卡双待双通 一键智灵，指纹识别，2000万后置摄像头！【爆款购不停，就耀换新机，详情猛戳】</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥1799.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone5.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">小米 红米 3S 全网通 2GB内存 16GB ROM 经典金色 移动联通电信4G手机 双卡双待 指纹识别，金属机身，4100mAh 大电池！小米挚爱不等待，新品抢购，更多活动请猛戳此处！</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥729.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone6.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">乐视（Le）乐2（X620）32GB 原力金 移动联通电信4G手机 双卡双待 下单立减100元，5.5英寸In Cell屏幕，金属一体化机身，后1600+前800万像素！更多精彩活动请点击！</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥1099.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone7.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">荣耀 V8 全网通 高配版 4GB+64GB 香槟金 移动联通电信4G手机 双卡双待双通 精致外观，1200万像素平行镜头，3500mAh电池长久续航【爆款购不停，就耀换新机，详情猛戳】</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥2599.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone8.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">小米5 全网通 标准版 3GB内存 32GB ROM 白色 移动联通电信4G手机 高通骁龙820处理器，4轴防抖相机！很轻狠快！！小米挚爱不等待，新品抢购，更多活动请猛戳此处！</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥1599.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone9.png" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">vivo X7 全网通 4GB+64GB 移动联通电信4G手机 双卡双待 金色 vivox9 现货抢购 前置2000万柔光双摄·12期免息·送超值礼包·立即抢购</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥2498.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+					<div class="item-cont">
+						<div class="cont-wrap">
+							<div class="item-img">
+								<a href="#"><img src="imgs/phone/phone9.jpg" alt="手机"></a>
+							</div>
+							<div class="item-name">
+								<a href="#">努比亚(nubia)【4+64GB】Z11 星空灰（锖色） 移动联通电信4G手机双卡双待 京东自营 11月28日10点，Z11全新配色极光蓝新品发售，“极”尽想象，“光”彩耀目！购买戳这里！6期白条免息！</a>
+							</div>
+							<div class="price">
+								<span class="price-num">￥2499.00</span><a href="#"><span class="comment-num">4866</span>评论</a>
+							</div>
+							<div class="goods-car">
+								<a href="#">加入购物车</a>
+							</div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="foot-page">
+				<a href="#">上一页</a><span id="page-num"><a class="page-active" href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><a href="#">6</a><a href="#">7</a><a href="#">8</a><span class="ellipsis">...</span><a href="#">100</a></span><a href="#">下一页</a><span class="to-page">共100页，到第</span><input type="text"><span class="page">页</span><button>确定</button>
+			</div>
+		<!-- main-product结束 -->
+		</div>
+	</div>		
+	<!-- foot开始 -->
+	<footer class="foot">
+		<div class="copy-right">
+			<p><a href="#">小店简介 </a>|<a href="#"> 小店公告 </a>|<a href="#"> 招纳贤士 </a>|<a href="#"> 联系我们 </a>|</a>客服热线：400-675-1234</p>
+			<p>Copyright <span class="right">&copy;</span> 2006 - 2017 小店版权所有   粤ICP备09037834号   粤ICP证B1034-8373号   某市公安局XX分局备案编号：123456789123</p>
+		</div>
+		<div class="credit">
+			<a href="#">信用评级</a>
+			<a href="#">上海工商</a>
+			<a href="#"></a>
+			<a href="#">网络社会征信网</a>
+			<a href="#"></a>
+		</div>
+	<!-- foot结束 -->
+	</footer>
+<script src="js/jquery.js"></script>
+<script src="js/no_index.js"></script>
+</body>
+</html>

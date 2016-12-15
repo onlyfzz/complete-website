@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>注册页</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="regist-page">
+	<!-- 头部开始 -->
+	<header class="head">
+		<!-- logo开始 -->
+		<div class="head-mid clearfix">
+			<div class="comWidth clearfix">
+				<div class="logo clearfix">
+					<a href="index.html"><img src="imgs/logo.jpg" alt="慕课网"></a>
+					<h1><a href="index.html">Fzz的小店</a></h1> 
+					<h2 class="welcome-regist">欢迎注册</h2>
+				</div>
+			</div>
+		<!-- logo结束 -->
+		</div>
+	<!-- 头部结束 -->
+	</header>
+	<div class="regist-page-main">
+		<form action="" method="post" id="registPanel">
+			<div class="regist-panel-wrap">
+				<div class="regist-panel">
+					<div class="username input-item">
+						<label><em>* </em>账户名：</label><input class="username-text" type="text" id="username" name="username" placeholder="账号为2-12位字母或数字">
+					</div>
+					<div class="password input-item">
+						<label><em>* </em>请设置密码：</label><input class="password-text" id="password" type="password" name="password" placeholder="密码为6-12位">
+					</div>
+					<div class="password-sure input-item">
+						<label><em>* </em>请确认密码：</label><input class="password-sure-text" type="password" name="passwordSure" placeholder="请再次输入密码">
+					</div>
+					<div class="email input-item">
+						<label><em>* </em>邮箱：</label><input class="email-text" type="text" name="email" placeholder="请输入类似123@qq.com正确的格式">
+					</div>
+					<div class="location input-item">
+						<label><em>* </em>地址：</label><input class="location" type="text" name="location" placeholder="请填写正确的送货地址">
+					</div>
+					<div class="agree-agreement">
+						<input type="checkbox" checked><label>我已阅读并同意<a href="#">&lt;&lt;用户注册协议&gt;&gt;</a></label>
+					</div>
+					<div class="regist-submit">
+						<button class="regist-submit-bt">提 交</button>
+					</div>
+				</div>
+			</div>	
+		</form>
+	</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/regist.js"></script>
+</body>
+</html>
