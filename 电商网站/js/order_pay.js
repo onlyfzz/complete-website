@@ -1,3 +1,3 @@
-$('input[type=text]').focus(function(){
+$('input[type=text]').focus(function() {
 	$(this).val('');
 });
