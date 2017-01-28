@@ -1,50 +1,50 @@
 $('#registPanel').validate({
-	rules:{
-		username:{
+	rules: {
+		username: {
 			required: true,
 			minlength: 2,
 			maxlength: 12
 		},
-		password:{
+		password: {
 			required: true,
 			minlength: 6,
 			maxlength: 12
 		},
-		passwordSure:{
+		passwordSure: {
 			required: true,
 			equalTo: '#password'
 		},
-		email:{
+		email: {
 			required: true,
 			email:true
 		},
-		location:{
+		location: {
 			required:true
 		}
 	},
-	success:function(label){
+	success: function(label) {
 		label.html('格式正确').addClass('success');
 	},
-	messages:{
-		username:{
+	messages: {
+		username: {
 			required: '必须填写用户名',
 			minlength: '用户名最少为2位',
 			maxlength: '用户名不得超过12位'
 		},
-		password:{
+		password: {
 			required: '必须填写密码',
 			minlength: '密码最少为6位',
 			maxlength: '密码不得超过12位'
 		},
-		passwordSure:{
+		passwordSure: {
 			required: '请再次填写密码',
 			equalTo: '两次密码不一致'
 		},
-		email:{
+		email: {
 			required: '请填写邮箱地址',
 			email:'邮箱格式不正确'
 		},
-		location:{
+		location: {
 			required:'请填写送货地址'
 		}
 	}
