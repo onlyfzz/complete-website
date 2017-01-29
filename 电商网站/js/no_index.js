@@ -1,6 +1,6 @@
 /**
  *鼠标滑过商品列表右侧子菜单出现
- **/
+ */
 (function() { 
     var $allClass = $('#allClass'),
         $shopClass = $('#shopClass'),
@@ -8,7 +8,7 @@
         $itemSublist = $('#item-sub .item-sublist');
     /**
      *鼠标滑过全部商品,列表出现
-     **/
+     */
     $allClass.hover(function() {
         $shopClass.show();
     },function() {
@@ -16,7 +16,7 @@
     });
     /**
      *shopClass鼠标滑过时的变化
-     **/
+     */
     $shopClassItem.hover(function() {
         $(this).addClass('item-active');
         $('#item-sub .item-sublist').eq($(this).index()).show();
@@ -26,7 +26,7 @@
     });
     /**
      *itemSublist鼠标滑过时的变化
-     **/
+     */
     $itemSublist.hover(function() {
         $shopClassItem.eq($(this).index()).addClass('item-active');
         $(this).show();
@@ -37,7 +37,7 @@
 })();
 /**
  *窗口滚动超过一屏时searchFixed出现
- **/
+ */
 (function() {
     var $window = $(window);
     var $searchFixed = $('#search-fixed');
@@ -51,7 +51,7 @@
 })();
 /**
  *banner轮播图
- **/
+ */
 (function() {
     var $banner = $('#imgBanner'),
         $imgs = $('#imgBox').find('img'),
@@ -94,7 +94,7 @@
 })();
 /**
  *侧边定位导航
- **/
+ */
  (function(){
     var $rightSide = $('#rightSide-nav'),
         $pointers = $rightSide.find('.anchor'),
@@ -142,7 +142,7 @@
 })();
 /**
  *地址选择点击出现
- **/
+ */
 (function() {
     var $addSelect = $('#add-select'),
         $selectList = $('#select-list'),
@@ -201,7 +201,7 @@
 })();
 /**
  *商品详细页中图片的切换和放大镜效果
- **/
+ */
  (function() {
     var $bigPic = $('#bigPic'),
         $smPics = $('#smPic').find('img'),
@@ -248,7 +248,7 @@
  })();
  /**
   *产品咨询和评论点击切换以及点赞的点击增加
-  **/
+  */
  (function() {
     var $commentBt = $('#commentBt'),
         $proInroBt = $('#proInroBt'),
